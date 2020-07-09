@@ -112,9 +112,7 @@ for gt in df.index.unique():
         m_compared_to_best=(gt_df[m]-gt_df[gt_bestmodel])/gt_df[gt_bestmodel]*100
         m_compared_to_best=m_compared_to_best.tolist()
         data.append(m_compared_to_best)
-        m_compared_to_best_np=np.array(m_compared_to_best)
-        c_less_zero=m_compared_to_best_np[m_compared_to_best_np<0]
-        print(m,np.mean(m_compared_to_best),np.std(m_compared_to_best),np.mean(c_less_zero))
+        print(m,np.mean(m_compared_to_best))
         
         
     ax.boxplot(data) 
