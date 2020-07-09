@@ -2,6 +2,12 @@
 
 This repository contains the codes for _David Poole, Ali Mohammad Mehr, Wan Shing Martin Wang_ ,"Conditioning on “and nothing else”: Simple Models of Missing Data betweenNaive Bayes and Logistic Regression," ICML 2020 Workshop Artemiss Submission.
 
+## running the code
+1. `pip install -r requirements.txt`
+
+2. `./run_tests.sh 1 200 10`
+
+## explanations for above commands
 To run the code, first install the dependencies using `pip install -r requirements.txt` .
 
 Next, run `./run_tests.sh 1 200 10` to run the tests and get the output graphs. As you can see, this command accepts 3 arguments as follows:
