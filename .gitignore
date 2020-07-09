@@ -2,3 +2,5 @@ results/
 stdouts/
 *.png
 *.csv
+.theano/
+.ipynb_checkpoints
