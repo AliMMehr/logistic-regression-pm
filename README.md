@@ -1,4 +1,4 @@
-# Logistic Regression$$\pm$$
+# Logistic Regression Plus-Minus
 
 This repository contains the codes for _David Poole, Ali Mohammad Mehr, Wan Shing Martin Wang_ ,"Conditioning on “and nothing else”: Simple Models of Missing Data betweenNaive Bayes and Logistic Regression," ICML 2020 Workshop Artemiss Submission.
 
