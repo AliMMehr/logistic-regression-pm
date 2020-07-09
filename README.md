@@ -16,10 +16,10 @@ Running `./run_tests.sh 1 200 10` will run the tests and produce the output grap
 
 - end_id: The id of the last test. Suggested value: 200
 
-- number of concurrent tests running. Suggested value: 10 (if your system has at least 10 CPU threads)
+- Number of concurrent tests running. Suggested value: 10 (if your system has at least 10 CPU threads)
 
 The script will run $$(end\_id-start\_id+1)$$ tests. Each test is composed of creating 3 randomly generated datasets - namely a C dataset, a D4 dataset, and a DLR dataset. On each generated dataset, the code traines the four different models mentioned in our paper - namely models LR$$\pm$$, Naive Bayes, model (c), and model (d). For each generated dataset, the logloss of each model for that dataset is stored in an individual json file in _results/_ directory.
 
-Finally, the script will run `python Read-test-results-and-plot-graphs.py` to make the graphs shown in paper alongs with printing average logloss comparisons.
+In the end, the script will run `python Read-test-results-and-plot-graphs.py` to make the graphs shown in paper alongs with printing average logloss comparisons.
 
-Using the suggested argument values for `./run_tests.sh` will result in running 200 tests which are run simultaneously on 10 CPU threads.
+Using the suggested argument values for `./run_tests.sh` will result in running 200 tests which are run simultaneously on 10 CPU threads. Note that it will take more than 6 hours for the code to run 200 tests simultaneously on 10 CPU threads.
