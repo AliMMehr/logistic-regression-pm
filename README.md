@@ -22,4 +22,4 @@ The script will run $$(end\_id-start\_id+1)$$ tests. Each test is composed of cr
 
 Finally, the script will run `python Read-test-results-and-plot-graphs.py` to make the graphs shown in paper alongs with printing average logloss comparisons.
 
-Using the suggested argument values for `./run_tests.sh` will result in 200 tests which are run simultaneously on 10 CPU threads.
+Using the suggested argument values for `./run_tests.sh` will result in running 200 tests which are run simultaneously on 10 CPU threads.
