@@ -8,7 +8,7 @@ This repository contains the codes for _David Poole, Ali Mohammad Mehr, Wan Shin
 2. `./run_tests.sh 1 200 10`
 
 ### Explanations for above commands
-`pip install -r requirements.txt` will install Python dependencies for the code.
+`pip install -r requirements.txt` will install Python dependencies for the code. The main dependencies include sklearn and pymc3.
 
 Running `./run_tests.sh 1 200 10` will run the tests and produce the output graphs. As you can see, this script accepts 3 arguments as follows:
 
