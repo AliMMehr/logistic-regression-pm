@@ -954,7 +954,7 @@ model_comparison['trained (d)']={'logloss':logloss/len(y_test)}
 # test best model on the data   
 shared_p_haveSibling=haveSibling_gt
 shared_p_Anxiety=Anxiety_gt
-shared_p_happyAlone_given_S_A=happyAlone_given_S_A_gt
+shared_p_happyAlone_given_S_A=happyAlone_given_S_A
 shared_p_ObsHaveSibling_given_haveSiblingT=ObsHaveSibling_given_HaveSiblingT_gt
 shared_p_ObsHaveSibling_given_haveSiblingF=ObsHaveSibling_given_HaveSiblingF_gt
 shared_p_ObsAnxiety_given_AnxietyT=ObsAnxiety_given_AnxietyT_gt

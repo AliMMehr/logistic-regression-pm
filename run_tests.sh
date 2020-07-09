@@ -37,4 +37,6 @@ do
     
 done 
 
+wait
+
 python Read-test-results-and-plot-graphs.py
